@@ -1,0 +1,42 @@
+Iteration 1
+T at iteration 1
+2 2 1 4 4 1 4 4 1 1 3 3 1 1 0 
+Type array:
+0 0 1 0 0 1 0 0 1 1 0 0 0 0 1 
+LMS prefixes are sorted.
+SA at iteration 1
+14 13 12 8 9 2 5 1 0 11 10 4 7 3 6 
+T1 at iteration 1
+2 2 1 0 
+Iteration 1. Recursive call on T1.
+********************************************
+Iteration 2
+T at iteration 2
+2 2 1 0 
+Type array:
+0 0 0 1 
+LMS prefixes are sorted.
+SA at iteration 2
+3 2 1 0 
+T1 at iteration 2
+0 
+Iteration 2. Recursive call on T1.
+********************************************
+Iteration 3
+T at iteration 3
+0 
+
+********************************************
+After recursive call inside iteration 2
+SA1 at iteration 2 (after recursive call) is:
+0 
+SA at the end of SAIS function just before the return at iteration 2
+3 2 1 0 
+
+********************************************
+After recursive call inside iteration 1
+SA1 at iteration 1 (after recursive call) is:
+3 2 1 0 
+SA at the end of SAIS function just before the return at iteration 1
+14 13 12 8 9 5 2 1 0 11 10 7 4 6 3 
+iipsismmpissii
